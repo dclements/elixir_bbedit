@@ -12,6 +12,7 @@
 		def,
 		do,
 		do:,
+		for:,
 		end,
 		defmodule,
 		if,
@@ -24,6 +25,7 @@
 		catch,
 		cond,
 		defrecord,
+		defrecordp,
 		require,
 		use,
 		test,
@@ -35,6 +37,7 @@
 		defoverridable,
 		defp,
 		defprotocol,
+		import,
 		when,
 		and,
 		or,
@@ -177,6 +180,7 @@
         
         Behaviour,
         Bitwise,
+        Binary,
         Dict,
         EEx,
         ExUnit,
@@ -189,6 +193,7 @@
         Node,
         OptionParser,
         Path,
+        Protocol,
         Regex,
         Supervisor,
         URI,
@@ -202,6 +207,7 @@
         :lists,
         :math,
         :throw,
+        :erlang,
         
         :docs,
         :moduledoc,
@@ -209,6 +215,10 @@
         "@doc",
         "@only",
         "@moduledoc",
+        "@type",
+        "@spec",
+        "@compile",
+        "@behaviour",
         
         "%b",
         "%B",
@@ -223,6 +233,8 @@
         __DIR__,
         __ENV__,
         __CALLER__,  
+        
+        assert,
     );
     BBLMSuffixMap = (
         {
