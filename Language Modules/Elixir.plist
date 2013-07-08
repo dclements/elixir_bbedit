@@ -29,6 +29,8 @@
 		require,
 		use,
 		test,
+		setup,
+		teardown,
 		defmacro,
 		defmacrop,
 		defdelegate,
@@ -208,6 +210,9 @@
         :math,
         :throw,
         :erlang,
+        :gen_server,
+        :supervisor,
+        :gen_event,
         
         :docs,
         :moduledoc,
@@ -227,7 +232,6 @@
         "%r",
         "%R",
         
-        test,
         __MODULE__,
         __FILE__,
         __DIR__,
